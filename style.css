@@ -20,24 +20,41 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .logo {
     font-size: 24px;
     font-weight: 900;
     color: #f9faf8;
-    padding-left: 30px;
 }
 
 .row1 {
     background: #1F2937;
     color: white;
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.left-column {
+    display: flex;
     flex-direction: column;
     justify-content: left;
     align-items: left;
-    padding-left: 30px;
     flex-wrap: wrap;
+    margin-bottom: 10px;
+    width: 350px;
+}
+
+.right-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
 }
 
 .hero {
@@ -47,14 +64,16 @@ body {
 
 .row2 {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-img {
-    border-radius: 8px;
-    width: 100px;
-    height: auto;
+.img-row2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 ul {
@@ -62,7 +81,6 @@ ul {
     flex-direction: row;
     gap: 15px;
     list-style-type: none;
-    padding-right: 30px;
 }
 
 a {
@@ -81,4 +99,8 @@ button {
     border: none;
     width: 125px;
     margin-bottom: 10px;
+}
+
+img {
+    border-radius: 30px;
 }
