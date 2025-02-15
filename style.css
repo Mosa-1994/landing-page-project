@@ -20,12 +20,35 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding-left: 10px;
-    padding-right: 10px;
 }
 
 .logo {
+    font-size: 24px;
     font-weight: 900;
+    color: #f9faf8;
+    padding-left: 30px;
+}
+
+.row1 {
+    background: #1F2937;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    padding-left: 30px;
+    flex-wrap: wrap;
+}
+
+.hero {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.row2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 img {
@@ -39,8 +62,23 @@ ul {
     flex-direction: row;
     gap: 15px;
     list-style-type: none;
+    padding-right: 30px;
 }
 
 a {
+    color: #e5e7eb;
     text-decoration: none;
+    font-size: 18px;
+
+}
+
+button {
+    background: #3882F6;
+    color: white;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 10px 15px;
+    border: none;
+    width: 125px;
+    margin-bottom: 10px;
 }
